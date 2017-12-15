@@ -1,0 +1,5 @@
+my_dbaas_key.pem
+*.terraform
+*.tfstate
+*.tfstate.backup
+*.tfvars

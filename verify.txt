@@ -1,0 +1,3 @@
+docker container ls -a
+docker logs mysql_dbaas
+docker exec -it mysql_dbaas
