@@ -44,7 +44,7 @@ resource "aws_instance" "docker-mysql" {
       "curl -fsSL get.docker.com -o get-docker.sh",
       "sudo sh get-docker.sh",
       "sudo docker pull mysql",
-      "sudo docker container run --name=mysql_dbaas -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql"
+      "sudo docker container run --name=mysql_dbaas -e MYSQL_RANDOM_ROOT_PASSWORD=yes -d mysql"
     ]
   }
 
